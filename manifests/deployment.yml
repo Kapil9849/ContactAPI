@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: contactsapi
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: contactsapi
+  template:
+    metadata:
+      labels:
+        app: contactsapi
+    spec:
+      containers:
+        - name: contactsapi
+          image: christmascountdownregistry.azurecr.io/contactsapi
+          ports:
+            - containerPort: 80

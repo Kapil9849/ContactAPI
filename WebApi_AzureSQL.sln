@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_AzureSQL", "WebApi_AzureSQL\WebApi_AzureSQL.csproj", "{9C9174B5-0DC1-419A-AB0E-E36823D2B663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C9174B5-0DC1-419A-AB0E-E36823D2B663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9174B5-0DC1-419A-AB0E-E36823D2B663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9174B5-0DC1-419A-AB0E-E36823D2B663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9174B5-0DC1-419A-AB0E-E36823D2B663}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37B02A94-560C-4023-87DE-F53511FA64CA}
+	EndGlobalSection
+EndGlobal
